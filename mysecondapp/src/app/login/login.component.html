@@ -1,0 +1,30 @@
+<div>
+  <div class="main-body">
+    <div class="side-nav">
+      <img class="imgsize" src="assets/images_1.jpg" alt="" />
+
+      <div class="centered">EXALCA ASSET MANAGEMENT</div>
+    </div>
+    <div><img class="logo" src="assets/image (28).png" alt="" /></div>
+    <div class="main">
+
+      <form [formGroup]="loginForm" class="form-group">
+        <h1 class="txt">Welcome</h1>
+        <h3>Sign-in to Your Account</h3>
+        <mat-form-field class="form-field" appearance="outline">
+          <mat-label>Username</mat-label>
+          <input matInput type="text" formControlName="username">
+        </mat-form-field>
+        <mat-form-field class="form-field" appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" formControlName="password">
+        </mat-form-field>
+        
+        <button mat-button color="primary" type="submit">Login</button>
+
+      </form>
+      
+    </div>
+    <img src="/assets/BackgroundLogin.png" alt="" class="imglogin" />
+  </div>
+</div>

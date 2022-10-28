@@ -1,0 +1,80 @@
+.main-body {
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    width: 12%;
+    height: 40px;
+    padding: 10px;
+    float: right;
+}
+.imglogin{
+    width: 30%;
+    height: 240px;
+    
+    float: right;
+    }
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #ffffff;
+  }
+.side-nav {
+    width: 70%;
+    height: 100vh;
+    background-color: #eaa96f;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .imgsize {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+.main {
+    float: left;
+    width: 30%;
+    height: calc(100vh - 310px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 130px;
+    align-items: center;
+
+    .form-field {
+        width: 90%;
+    }
+
+    .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
+        color: #36f490;
+    }   
+        
+        .btn{
+            margin-top: 10px;
+        }
+        .mat-button.mat-primary, .mat-icon-button.mat-primary, .mat-stroked-button.mat-primary {
+            color: #ffffff;
+            background-color: #1732c9;
+        }
+       
+        .txt{
+            font-weight: bolder;
+        }
+}
